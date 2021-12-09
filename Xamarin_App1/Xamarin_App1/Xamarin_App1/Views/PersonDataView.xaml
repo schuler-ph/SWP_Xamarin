@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converter="clr-namespace:Xamarin_App1.Models.Converter"
+             x:Class="Xamarin_App1.Views.PersonDataView">
+
+    <ContentPage.Resources>
+        <!-- hier wird der Name für den Converter festgelegt
+                diesen Namen (bei x:Key) müssen wir weiter unten verwenden
+        -->
+        <converter:GenderToIntConverter x:Key="GenderToIntConverter" />
+    </ContentPage.Resources>
+    
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BorderColor="SkyBlue" CornerRadius="10" HasShadow="True" Margin="20">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="4*" />
+                        <ColumnDefinition Width="6*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="1*" />
+                    </Grid.RowDefinitions>
+
+                    <Label Text="Person-ID" 
+                           HorizontalTextAlignment="End" VerticalTextAlignment="Center" 
+                           FontAttributes="Bold" />
+                    <Label Text="{Binding PersonId}" 
+                           Grid.Column="1" 
+                           VerticalTextAlignment="Center" Margin="20" />
+
+                    <Label Text="Vorname" 
+                           Grid.Row="1" 
+                           HorizontalTextAlignment="End" VerticalTextAlignment="Center" 
+                           FontAttributes="Bold" />
+                    <Entry Text="{Binding Firstname}" Placeholder="--firstname--" 
+                           Grid.Row="1" Grid.Column="1" 
+                           VerticalTextAlignment="Center" Margin="20" />
+
+                    <Label Text="Nachname" 
+                           Grid.Row="2" 
+                           HorizontalTextAlignment="End" VerticalTextAlignment="Center" 
+                           FontAttributes="Bold" />
+                    <Entry Text="{Binding Lastname}" Placeholder="--lastname--"
+                           Grid.Row="2"  Grid.Column="1"
+                           VerticalTextAlignment="Center" Margin="20" />
+
+                    <Label Text="Geschlecht" Grid.Row="3"
+                           HorizontalTextAlignment="End" VerticalTextAlignment="Center"
+                           FontAttributes="Bold" />
+                    <Picker 
+                           Grid.Row="3"  Grid.Column="1"
+                           VerticalTextAlignment="Center" Margin="20" SelectedIndex="{Binding Gender, Converter={StaticResource GenderToIntConverter}}" >
+                        <Picker.Items>
+                            <x:String>männlich</x:String>
+                            <x:String>weiblich</x:String>
+                            <x:String>nicht angegeben</x:String>
+                        </Picker.Items>
+                    </Picker>
+
+                    <Label Text="Gehalt" 
+                           Grid.Row="4" 
+                           HorizontalTextAlignment="End" VerticalTextAlignment="Center" 
+                           FontAttributes="Bold" />
+                    <Entry Text="{Binding Salary}" Placeholder="--salary--" 
+                           Grid.Row="4"  Grid.Column="1"
+                           VerticalTextAlignment="Center" Margin="20"/>
+
+                    <Label Text="Geburtsdatum" 
+                           Grid.Row="5" 
+                           HorizontalTextAlignment="End" VerticalTextAlignment="Center" 
+                           FontAttributes="Bold" />
+                    <DatePicker Date="{Binding Birthday}" 
+                           Grid.Row="5"  Grid.Column="1"
+                           Margin="20" />
+
+                    <Button Text="Speichern" 
+                            Grid.Row="6" 
+                            VerticalOptions="CenterAndExpand" HorizontalOptions="End"
+                            Command="{Binding CommandSaveUserData}"/>
+                    <Button Text="Abbrechen"
+                            Grid.Row="6" Grid.Column="1" 
+                            VerticalOptions="CenterAndExpand" HorizontalOptions="Start" />
+                    
+
+                </Grid>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
