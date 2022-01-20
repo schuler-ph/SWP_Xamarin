@@ -82,13 +82,17 @@
                            Grid.Row="5"  Grid.Column="1"
                            Margin="20" />
 
-                    <Button Text="Speichern" 
-                            Grid.Row="6" 
-                            VerticalOptions="CenterAndExpand" HorizontalOptions="End"
+                    <StackLayout Orientation="Horizontal" Grid.Row="6" Grid.Column="0"  HorizontalOptions="Center">
+                        <Button Text="Speichern" 
+                            VerticalOptions="CenterAndExpand"
                             Command="{Binding CommandSaveUserData}"/>
-                    <Button Text="Abbrechen"
-                            Grid.Row="6" Grid.Column="1" 
-                            VerticalOptions="CenterAndExpand" HorizontalOptions="Start" />
+                        <Button Text="Abbrechen"
+                                VerticalOptions="CenterAndExpand"/>
+                        <Button Text="Alle Personen anzeigen"
+                                Command="{Binding CmdShowAllPeople}"
+                                VerticalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                    
                     
 
                 </Grid>

@@ -13,3 +13,4 @@ C:\Users\schul\Documents\GitHub\SWP_Xamarin\Xamarin_App1\Xamarin_App1\Xamarin_Ap
 C:\Users\schul\Documents\GitHub\SWP_Xamarin\Xamarin_App1\Xamarin_App1\Xamarin_App1\obj\Debug\netstandard2.0\Xamarin_App1.dll
 C:\Users\schul\Documents\GitHub\SWP_Xamarin\Xamarin_App1\Xamarin_App1\Xamarin_App1\obj\Debug\netstandard2.0\ref\Xamarin_App1.dll
 C:\Users\schul\Documents\GitHub\SWP_Xamarin\Xamarin_App1\Xamarin_App1\Xamarin_App1\obj\Debug\netstandard2.0\Xamarin_App1.pdb
+C:\Users\schul\Documents\GitHub\SWP_Xamarin\Xamarin_App1\Xamarin_App1\Xamarin_App1\obj\Debug\netstandard2.0\Views\PeopleView.xaml.g.cs

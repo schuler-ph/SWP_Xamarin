@@ -5,6 +5,7 @@ using System.Windows.Input;
 using Xamarin.Forms;
 using Xamarin_App1.Models;
 using Xamarin_App1.Models.common;
+using Xamarin_App1.Views;
 using BindingBase = Xamarin_App1.Models.common.BindingBase;
 
 namespace Xamarin_App1.ViewModels
@@ -84,6 +85,18 @@ namespace Xamarin_App1.ViewModels
 
 
         public ICommand CommandSaveUserData => new Command(SavePersonData);
+
+        public ICommand CmdShowAllPeople => new Command(ShowAllPeople);
+
+        private async void ShowAllPeople()
+        {
+            //neue View anzeigen
+
+            PeopleView peopleView = new PeopleView();
+
+            // die neue View am Navigation-Stack ablegen
+            await Application.Current.MainPage.Navigation.PushModalAsync(peopleView);
+        }
 
         private void SavePersonData()
         {

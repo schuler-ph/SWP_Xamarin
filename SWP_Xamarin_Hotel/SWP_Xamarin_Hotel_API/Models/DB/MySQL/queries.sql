@@ -1,0 +1,1 @@
+SELECT * FROM swp_xamarin_hotel.guests;

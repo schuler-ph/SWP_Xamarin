@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "hY1PEDZ3vSYIpa7uVqDQUABmM60khz2lv6m3kG9HE/dTUPonvTY0qRwYFpMLxiT8shVS7tqNc/+HBRMTBvy/KA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.iOS\\SWP_Xamarin_Hotel.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\schul\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\schul\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\schul\\.nuget\\packages\\xamarin.forms\\5.0.0.2291\\xamarin.forms.5.0.0.2291.nupkg.sha512"
+  ],
+  "logs": []
+}
