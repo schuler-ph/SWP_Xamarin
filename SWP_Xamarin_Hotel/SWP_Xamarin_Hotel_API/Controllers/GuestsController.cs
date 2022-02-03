@@ -13,9 +13,10 @@ namespace SWP_Xamarin_Hotel_API.Controllers
         private HotelContext _context = new HotelContext();
 
         [HttpGet]
-        public List<Guest> GetGuests()
+        public List<Guests_Addresses> GetGuests()
         {
-            return this._context.Guests.Include("address").ToList();
+            return this._context.Guests_Addresses.Include("Guest").Include("Address").ToList();
         }
+
     }
 }

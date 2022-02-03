@@ -10,7 +10,7 @@ namespace SWP_Xamarin_Hotel_API.Models.DB
 
         public DbSet<Bill> Bills { get; set; }
         public DbSet<Room> Rooms { get; set; }
-        public DbSet<Bills_Rooms> Bills_Rooms { get;}
+        public DbSet<Bills_Rooms> Bills_Rooms { get; set; }
 
         public DbSet<AdditionalService> AdditionalServices { get; set; }
         public DbSet<Bills_AdditionalServices> Bills_AdditionalServices { get; set; }
