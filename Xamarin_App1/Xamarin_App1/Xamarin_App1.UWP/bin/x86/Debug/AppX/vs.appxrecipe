@@ -68,7 +68,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\Xamarin_App1\Xamarin_App1\Xamarin_App1\bin\Debug\netstandard2.0\Xamarin_App1.dll">
       <PackagePath>Xamarin_App1.dll</PackagePath>
-      <Modified>2021-12-16T14:02:09.866</Modified>
+      <Modified>2022-02-23T13:56:02.085</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schul\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
