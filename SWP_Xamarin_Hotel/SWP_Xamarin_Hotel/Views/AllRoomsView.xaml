@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SWP_Xamarin_Hotel.Views.AllRoomsView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Alle Zimmer" />
+
+            <Label Text="{Binding Name}" />
+
+            <CollectionView ItemsSource="{Binding Rooms}">
+                <CollectionView.Header>
+                    <Grid Padding="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="20" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                        </Grid.ColumnDefinitions>
+                        <Label Text="RoomId" Grid.Column="1" FontAttributes="Bold"/>
+                        <Label Text="RoomNumber" Grid.Column="2" FontAttributes="Bold" />
+                        <Label Text="NumberOfBeds" Grid.Column="3" FontAttributes="Bold" />
+                        <Label Text="HasKitchen" Grid.Column="4" FontAttributes="Bold" />
+                        <Label Text="HasBalcony" Grid.Column="5" FontAttributes="Bold" />
+                        <Label Text="HasTerrace" Grid.Column="6" FontAttributes="Bold" />
+                        <Label Text="PricePerNight" Grid.Column="7" FontAttributes="Bold" />
+                    </Grid>
+                </CollectionView.Header>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="1*" />
+                            </Grid.ColumnDefinitions>
+                            <Label Text="{Binding RoomId}" Grid.Column="1" />
+                            <Label Text="{Binding RoomNumber}" Grid.Column="2" />
+                            <Label Text="{Binding NumberOfBeds}" Grid.Column="3" />
+                            <Label Text="{Binding HasKitchen}" Grid.Column="4" />
+                            <Label Text="{Binding HasBalcony}" Grid.Column="5" />
+                            <Label Text="{Binding HasTerrace}" Grid.Column="6" />
+                            <Label Text="{Binding PricePerNight}" Grid.Column="7" />
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <Button Text="Alle Zimmer laden" Command="{Binding CmdLoadRooms}"/>
+            <Button Text="Alle freien Zimmer laden" Command="{Binding CmdLoadFreeRooms}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.UWP\\SWP_Xamarin_Hotel.UWP.csproj": {}
+    "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.UWP\\SWP_Xamarin_Hotel.UWP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.UWP\\SWP_Xamarin_Hotel.UWP.csproj": {
+    "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.UWP\\SWP_Xamarin_Hotel.UWP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.UWP\\SWP_Xamarin_Hotel.UWP.csproj",
+        "projectUniqueName": "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.UWP\\SWP_Xamarin_Hotel.UWP.csproj",
         "projectName": "SWP_Xamarin_Hotel.UWP",
-        "projectPath": "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.UWP\\SWP_Xamarin_Hotel.UWP.csproj",
+        "projectPath": "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.UWP\\SWP_Xamarin_Hotel.UWP.csproj",
         "packagesPath": "C:\\Users\\schul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.UWP\\obj\\",
+        "outputPath": "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.UWP\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -33,8 +33,8 @@
         "frameworks": {
           "uap10.0.16299": {
             "projectReferences": {
-              "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.csproj": {
-                "projectPath": "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.csproj"
+              "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.csproj": {
+                "projectPath": "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.csproj"
               }
             }
           }
@@ -87,18 +87,17 @@
         }
       }
     },
-    "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.csproj": {
+    "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.csproj",
+        "projectUniqueName": "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.csproj",
         "projectName": "SWP_Xamarin_Hotel",
-        "projectPath": "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.csproj",
+        "projectPath": "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.csproj",
         "packagesPath": "C:\\Users\\schul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel\\obj\\",
+        "outputPath": "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\schul\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -134,6 +133,10 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.7.0, )"
@@ -153,7 +156,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

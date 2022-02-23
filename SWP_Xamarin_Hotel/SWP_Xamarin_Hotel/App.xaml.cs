@@ -1,6 +1,5 @@
-﻿using System;
+﻿using SWP_Xamarin_Hotel.Views;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace SWP_Xamarin_Hotel
 {
@@ -10,7 +9,7 @@ namespace SWP_Xamarin_Hotel
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new AllRoomsView();
         }
 
         protected override void OnStart()
