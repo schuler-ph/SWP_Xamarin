@@ -59,6 +59,19 @@
                 </CollectionView.ItemTemplate>
             </CollectionView>
 
+            <Label Text="Startdatum" 
+                           HorizontalTextAlignment="Center" VerticalTextAlignment="Center" 
+                           FontAttributes="Bold" />
+            <DatePicker Date="{Binding StartDate}" 
+                           Margin="20" />
+
+            <Label Text="Enddatum" 
+                           HorizontalTextAlignment="Center" VerticalTextAlignment="Center" 
+                           FontAttributes="Bold" />
+            <DatePicker Date="{Binding EndDate}"
+                           Margin="20" />
+
+
             <Button Text="Alle Zimmer laden" Command="{Binding CmdLoadRooms}"/>
             <Button Text="Alle freien Zimmer laden" Command="{Binding CmdLoadFreeRooms}"/>
         </StackLayout>

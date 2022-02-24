@@ -43,15 +43,26 @@ namespace SWP_Xamarin_Hotel.Services
             return null;
         }
 
-        public async Task<ObservableCollection<Room>> GetAllFreeRooms()
+        private string buildFreeRoomUrl(DateTime startDate, DateTime endDate)
         {
+            string url = Constants.FreeRoomsUrl;
+            url += "/";
+            url += startDate.ToString("yyyy-MM-dd");
+            url += "/";
+            url += endDate.ToString("yyyy-MM-dd");
+            return url;
+        }
+
+        public async Task<ObservableCollection<Room>> GetAllFreeRooms(DateTime startDate, DateTime endDate)
+        {
+            string url = buildFreeRoomUrl(startDate, endDate);
+
             try
             {
-                HttpResponseMessage response = await _client.GetAsync(Constants.FreeRoomsUrl);
+                HttpResponseMessage response = await _client.GetAsync(url);
                 if (response.IsSuccessStatusCode)
                 {
                     string content = await response.Content.ReadAsStringAsync();
-                    Debug.WriteLine(content);
                     return JsonConvert.DeserializeObject<ObservableCollection<Room>>(content);
                 }
             }

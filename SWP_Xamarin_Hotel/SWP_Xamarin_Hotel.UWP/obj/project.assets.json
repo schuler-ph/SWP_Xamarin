@@ -4777,11 +4777,12 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "sha512": "548M6mnBSJWxsIlkQHfbzoYxpiYFXZZSL00p4GHYv8PkiqFBnnT68mW5mGEsA/ch9fDO9GkPgkFQpWiXZN7mAQ==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netstandard2.0/NETStandard.Library.targets",
@@ -9157,11 +9158,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.UWP\\SWP_Xamarin_Hotel.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.UWP\\SWP_Xamarin_Hotel.UWP.csproj",
       "projectName": "SWP_Xamarin_Hotel.UWP",
-      "projectPath": "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.UWP\\SWP_Xamarin_Hotel.UWP.csproj",
+      "projectPath": "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.UWP\\SWP_Xamarin_Hotel.UWP.csproj",
       "packagesPath": "C:\\Users\\schul\\.nuget\\packages\\",
-      "outputPath": "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.UWP\\obj\\",
+      "outputPath": "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -9183,8 +9184,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.csproj": {
-              "projectPath": "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.csproj"
+            "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.csproj": {
+              "projectPath": "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.csproj"
             }
           }
         }

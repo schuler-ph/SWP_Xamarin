@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-PHILIPP</Machine>
+    <Machine>PHILIPP-LAPTOP</Machine>
     <WindowsUser>schul</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=EF9180ED-BB53-485F-8BAF-D18F0D9B2ADB</PackageIdentityPublisher>
-    <IntermediateOutputPath>A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>058B53BCE55085F16D5A89F67A4985818E44B2F34162F4E52C045704470ADD15</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>C782482E8D8FFA6B6913C9B93DBE0786FF8B04CF49B419C77CF4224CA7A91C09</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>22C6483D-1091-4B3B-AB05-429AD867B539_1.0.0.0_x86__hs0khwwq2ftg0</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>22C6483D-1091-4B3B-AB05-429AD867B539_hs0khwwq2ftg0!App</RegisteredUserModeAppID>
     <RegisteredPackageID>22C6483D-1091-4B3B-AB05-429AD867B539</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T19:44:02.818</Modified>
+      <Modified>2022-02-24T13:18:13.783</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\bin\x86\Debug\SWP_Xamarin_Hotel.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\bin\x86\Debug\SWP_Xamarin_Hotel.UWP.exe">
       <PackagePath>entrypoint\SWP_Xamarin_Hotel.UWP.exe</PackagePath>
-      <Modified>2022-02-23T19:44:01.330</Modified>
+      <Modified>2022-02-24T13:18:10.682</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schul\.nuget\packages\newtonsoft.json\13.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -70,9 +70,9 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2021-12-09T10:31:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel\bin\Debug\netstandard2.0\SWP_Xamarin_Hotel.dll">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel\bin\Debug\netstandard2.0\SWP_Xamarin_Hotel.dll">
       <PackagePath>SWP_Xamarin_Hotel.dll</PackagePath>
-      <Modified>2022-02-23T19:43:55.886</Modified>
+      <Modified>2022-02-24T13:18:02.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schul\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -86,156 +86,156 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2021-12-09T10:24:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.932</Modified>
+      <Modified>2022-01-13T12:56:30.066</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.933</Modified>
+      <Modified>2022-01-13T12:56:30.072</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.933</Modified>
+      <Modified>2022-01-13T12:56:30.083</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.933</Modified>
+      <Modified>2022-01-13T12:56:30.088</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.934</Modified>
+      <Modified>2022-01-13T12:56:30.095</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.934</Modified>
+      <Modified>2022-01-13T12:56:30.110</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.934</Modified>
+      <Modified>2022-01-13T12:56:30.114</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.934</Modified>
+      <Modified>2022-01-13T12:56:30.121</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.935</Modified>
+      <Modified>2022-01-13T12:56:30.129</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.935</Modified>
+      <Modified>2022-01-13T12:56:30.136</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.935</Modified>
+      <Modified>2022-01-13T12:56:30.144</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.936</Modified>
+      <Modified>2022-01-13T12:56:30.152</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.936</Modified>
+      <Modified>2022-01-13T12:56:30.158</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.936</Modified>
+      <Modified>2022-01-13T12:56:30.198</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.936</Modified>
+      <Modified>2022-01-13T12:56:30.204</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.936</Modified>
+      <Modified>2022-01-13T12:56:30.236</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.937</Modified>
+      <Modified>2022-01-13T12:56:30.243</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.937</Modified>
+      <Modified>2022-01-13T12:56:30.249</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.937</Modified>
+      <Modified>2022-01-13T12:56:30.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.937</Modified>
+      <Modified>2022-01-13T12:56:30.263</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.937</Modified>
+      <Modified>2022-01-13T12:56:30.267</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.938</Modified>
+      <Modified>2022-01-13T12:56:30.279</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.938</Modified>
+      <Modified>2022-01-13T12:56:30.284</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.938</Modified>
+      <Modified>2022-01-13T12:56:30.289</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.938</Modified>
+      <Modified>2022-01-13T12:56:30.295</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.939</Modified>
+      <Modified>2022-01-13T12:56:30.303</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-23T15:25:43.939</Modified>
+      <Modified>2022-01-13T12:56:30.309</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2022-02-23T15:25:43.940</Modified>
+      <Modified>2022-01-13T12:56:30.320</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\bin\x86\Debug\SWP_Xamarin_Hotel.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\bin\x86\Debug\SWP_Xamarin_Hotel.UWP.xr.xml">
       <PackagePath>SWP_Xamarin_Hotel.UWP.xr.xml</PackagePath>
-      <Modified>2022-02-23T15:25:44.091</Modified>
+      <Modified>2022-01-13T13:50:10.246</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-02-23T19:44:01.254</Modified>
+      <Modified>2022-02-24T13:18:10.577</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-02-23T19:44:01.255</Modified>
+      <Modified>2022-02-24T13:18:10.577</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -249,13 +249,13 @@
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2020-07-10T00:07:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-02-23T17:37:37.687</Modified>
+      <Modified>2022-02-24T12:25:20.728</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\bin\x86\Debug\Core\SWP_Xamarin_Hotel.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\bin\x86\Debug\Core\SWP_Xamarin_Hotel.UWP.exe">
       <PackagePath>SWP_Xamarin_Hotel.UWP.exe</PackagePath>
-      <Modified>2022-02-23T19:44:02.815</Modified>
+      <Modified>2022-02-24T13:18:13.769</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

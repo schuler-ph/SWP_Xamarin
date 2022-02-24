@@ -1,1 +1,1 @@
-A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\SWP_Xamarin_Hotel.UWP.csproj;x86
+C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\SWP_Xamarin_Hotel.UWP.csproj;x86

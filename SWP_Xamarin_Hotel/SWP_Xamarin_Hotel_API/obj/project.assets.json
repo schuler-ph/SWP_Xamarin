@@ -10590,19 +10590,21 @@
   },
   "packageFolders": {
     "C:\\Users\\schul\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel_API\\SWP_Xamarin_Hotel_API.csproj",
+      "projectUniqueName": "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel_API\\SWP_Xamarin_Hotel_API.csproj",
       "projectName": "SWP_Xamarin_Hotel_API",
-      "projectPath": "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel_API\\SWP_Xamarin_Hotel_API.csproj",
+      "projectPath": "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel_API\\SWP_Xamarin_Hotel_API.csproj",
       "packagesPath": "C:\\Users\\schul\\.nuget\\packages\\",
-      "outputPath": "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel_API\\obj\\",
+      "outputPath": "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel_API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\schul\\AppData\\Roaming\\NuGet\\NuGet.Config",

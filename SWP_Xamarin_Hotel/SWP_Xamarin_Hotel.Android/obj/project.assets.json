@@ -3215,11 +3215,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.Android\\SWP_Xamarin_Hotel.Android.csproj",
+      "projectUniqueName": "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.Android\\SWP_Xamarin_Hotel.Android.csproj",
       "projectName": "SWP_Xamarin_Hotel.Android",
-      "projectPath": "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.Android\\SWP_Xamarin_Hotel.Android.csproj",
+      "projectPath": "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.Android\\SWP_Xamarin_Hotel.Android.csproj",
       "packagesPath": "C:\\Users\\schul\\.nuget\\packages\\",
-      "outputPath": "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.Android\\obj\\",
+      "outputPath": "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3240,8 +3240,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.csproj": {
-              "projectPath": "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.csproj"
+            "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.csproj": {
+              "projectPath": "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.csproj"
             }
           }
         }

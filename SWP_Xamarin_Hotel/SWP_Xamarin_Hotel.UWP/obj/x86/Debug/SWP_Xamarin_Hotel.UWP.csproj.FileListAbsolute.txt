@@ -125,3 +125,4 @@ A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\obj\x86\Debug\Proj
 A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636160715180000000.json
 A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424779200000000.json
 A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel.UWP\bin\x86\Debug\Newtonsoft.Json.dll

@@ -1055,11 +1055,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.iOS\\SWP_Xamarin_Hotel.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.iOS\\SWP_Xamarin_Hotel.iOS.csproj",
       "projectName": "SWP_Xamarin_Hotel.iOS",
-      "projectPath": "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.iOS\\SWP_Xamarin_Hotel.iOS.csproj",
+      "projectPath": "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.iOS\\SWP_Xamarin_Hotel.iOS.csproj",
       "packagesPath": "C:\\Users\\schul\\.nuget\\packages\\",
-      "outputPath": "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.iOS\\obj\\",
+      "outputPath": "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1080,8 +1080,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.csproj": {
-              "projectPath": "A:\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.csproj"
+            "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.csproj": {
+              "projectPath": "C:\\Users\\schul\\Documents\\GitHub\\SWP_Xamarin\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel\\SWP_Xamarin_Hotel.csproj"
             }
           }
         }

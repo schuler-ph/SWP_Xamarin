@@ -1,5 +1,6 @@
 ﻿using SWP_Xamarin_Hotel.Models;
 using SWP_Xamarin_Hotel.Services;
+using System;
 using System.Collections.ObjectModel;
 using System.Windows.Input;
 using Xamarin.Forms;
@@ -10,7 +11,6 @@ namespace SWP_Xamarin_Hotel.ViewModels
     internal class AllRoomsViewModel : BindingBase
     {
         private ObservableCollection<Room> _rooms;
-
         public ObservableCollection<Room> Rooms
         {
             get { return this._rooms; }
@@ -21,25 +21,22 @@ namespace SWP_Xamarin_Hotel.ViewModels
             }
         }
 
+        public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
+
         private readonly ApiRoomService _api = new ApiRoomService();
 
         public AllRoomsViewModel()
         {
             this._rooms = new ObservableCollection<Room>();
+            this.StartDate = new DateTime(2022, 01, 01);
+            this.EndDate = new DateTime(2022, 02, 05);
         }
 
         public ICommand CmdLoadRooms => new Command(LoadRooms);
-
-        private async void LoadRooms()
-        {
-            Rooms = await _api.GetAllRooms();
-        }
+        private async void LoadRooms() { Rooms = await _api.GetAllRooms(); }
 
         public ICommand CmdLoadFreeRooms => new Command(LoadFreeRooms);
-
-        private async void LoadFreeRooms()
-        {
-            Rooms = await _api.GetAllFreeRooms();
-        }
+        private async void LoadFreeRooms() { Rooms = await _api.GetAllFreeRooms(StartDate, EndDate); }
     }
 }

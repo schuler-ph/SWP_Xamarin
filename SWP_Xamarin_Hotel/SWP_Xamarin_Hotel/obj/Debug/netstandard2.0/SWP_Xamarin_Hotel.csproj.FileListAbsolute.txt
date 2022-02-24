@@ -1,6 +1,5 @@
 C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel\bin\Debug\netstandard2.0\SWP_Xamarin_Hotel.deps.json
 C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel\bin\Debug\netstandard2.0\SWP_Xamarin_Hotel.dll
-C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel\bin\Debug\netstandard2.0\ref\SWP_Xamarin_Hotel.dll
 C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel\bin\Debug\netstandard2.0\SWP_Xamarin_Hotel.pdb
 C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel\obj\Debug\netstandard2.0\SWP_Xamarin_Hotel.csproj.AssemblyReference.cache
 C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel\obj\Debug\netstandard2.0\SWP_Xamarin_Hotel.GeneratedMSBuildEditorConfig.editorconfig
@@ -29,3 +28,5 @@ A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel\bin\Debug\netstandard2
 A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel\obj\Debug\netstandard2.0\XamlC.stamp
 A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel\obj\Debug\netstandard2.0\refint\SWP_Xamarin_Hotel.dll
 A:\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel\obj\Debug\netstandard2.0\ref\SWP_Xamarin_Hotel.dll
+C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel\obj\Debug\netstandard2.0\Views\AllRoomsView.xaml.g.cs
+C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel\obj\Debug\netstandard2.0\refint\SWP_Xamarin_Hotel.dll
