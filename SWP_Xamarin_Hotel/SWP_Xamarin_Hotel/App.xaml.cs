@@ -9,7 +9,7 @@ namespace SWP_Xamarin_Hotel
         {
             InitializeComponent();
 
-            MainPage = new AllRoomsView();
+            MainPage = new MainMenuView();
         }
 
         protected override void OnStart()

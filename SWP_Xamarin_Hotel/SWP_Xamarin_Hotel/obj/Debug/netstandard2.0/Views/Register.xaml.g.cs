@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("SWP_Xamarin_Hotel.MainPage.xaml", "MainPage.xaml", typeof(global::SWP_Xamarin_Hotel.MainPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("SWP_Xamarin_Hotel.Views.Register.xaml", "Views/Register.xaml", typeof(global::SWP_Xamarin_Hotel.Views.Register))]
 
-namespace SWP_Xamarin_Hotel {
+namespace SWP_Xamarin_Hotel.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("MainPage.xaml")]
-    public partial class MainPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Register.xaml")]
+    public partial class Register : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Register));
         }
     }
 }

@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using SWP_Xamarin_Hotel_API.Models;
 using SWP_Xamarin_Hotel_API.Models.DB;
+using System.Diagnostics;
 
 namespace SWP_Xamarin_Hotel_API.Controllers
 {
@@ -12,10 +13,25 @@ namespace SWP_Xamarin_Hotel_API.Controllers
         private HotelContext _context = new HotelContext();
 
         [HttpGet]
-        public List<Guests_Addresses> GetGuests()
+        public List<Guest> GetGuests()
         {
-            return this._context.Guests_Addresses.Include("Guest").Include("Address").ToList();
+            return this._context.Guests.ToList();
         }
 
+        [HttpPost]
+        [Route("register")]
+        public void Register(Guest guest)
+        {
+            this._context.Guests.Add(guest);
+
+            try
+            {
+                this._context.SaveChanges();
+            }
+            catch (DbUpdateException ex)
+            {
+                Debug.WriteLine("Diese Passnummer existiert bereits.");
+            }
+        }
     }
 }

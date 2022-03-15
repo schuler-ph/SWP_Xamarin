@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SWP_Xamarin_Hotel.Views.RegisterView">
+    <ContentPage.Content>
+        <StackLayout>
+            
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="4*" />
+                    <ColumnDefinition Width="6*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                </Grid.RowDefinitions>
+                
+                <Label Text="Passnummer"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                />
+                <Entry Text="{Binding CurrentGuest.PassportNumber}" Placeholder="Passnummer"
+                    VerticalTextAlignment="Center" 
+                    HorizontalOptions="CenterAndExpand"
+                    Grid.Column="1"
+                    Margin="20"
+                />
+
+                <Label Text="Vorname"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                    Grid.Row="1"
+                />
+                <Entry Text="{Binding CurrentGuest.Firstname}" Placeholder="Vorname"
+                    VerticalTextAlignment="Center" 
+                    HorizontalOptions="CenterAndExpand"
+                    Grid.Row="1"  Grid.Column="1"
+                    Margin="20"
+                />
+
+                <Label Text="Nachname"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                    Grid.Row="2"
+                />
+                <Entry Text="{Binding CurrentGuest.Lastname}" Placeholder="Nachname"
+                    VerticalTextAlignment="Center" 
+                    HorizontalOptions="CenterAndExpand"
+                    Grid.Row="2"  Grid.Column="1"
+                    Margin="20"
+                />
+
+                <Label Text="Geburtstag"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                    Grid.Row="3"
+                    Margin="20"
+                />
+
+                <DatePicker Date="{Binding CurrentGuest.Birthday}" 
+                    Grid.Row="3"  Grid.Column="1"
+                    Margin="20"
+                />
+            </Grid>
+
+
+            <Button Text="Abschicken"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                Command="{Binding CmdSubmit}"
+             />
+
+
+            <Button Text="Zurück"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                Command="{Binding CmdNavigateBack}"
+             />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
