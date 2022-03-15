@@ -4,8 +4,6 @@
              x:Class="SWP_Xamarin_Hotel.Views.RegisterView">
     <ContentPage.Content>
         <StackLayout>
-            
-
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="4*" />
@@ -59,21 +57,17 @@
                     Grid.Row="3"
                     Margin="20"
                 />
-
                 <DatePicker Date="{Binding CurrentGuest.Birthday}" 
                     Grid.Row="3"  Grid.Column="1"
                     Margin="20"
                 />
             </Grid>
 
-
             <Button Text="Abschicken"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
                 Command="{Binding CmdSubmit}"
              />
-
-
             <Button Text="Zurück"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"

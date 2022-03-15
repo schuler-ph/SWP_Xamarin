@@ -72,7 +72,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel\bin\Debug\netstandard2.0\SWP_Xamarin_Hotel.dll">
       <PackagePath>SWP_Xamarin_Hotel.dll</PackagePath>
-      <Modified>2022-03-10T14:08:50.322</Modified>
+      <Modified>2022-03-15T06:49:03.016</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\schul\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
