@@ -46,7 +46,7 @@
                 />
                 <Entry Text="{Binding CurrentGuest.Lastname}" Placeholder="Nachname"
                     VerticalTextAlignment="Center" 
-                    HorizontalOptions="CenterAndExpand"
+                    HorizontalOptions="FillAndExpand"
                     Grid.Row="2"  Grid.Column="1"
                     Margin="20"
                 />
