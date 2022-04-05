@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("SWP_Xamarin_Hotel.Views.RoomDetails.xaml", "Views/RoomDetails.xaml", typeof(global::SWP_Xamarin_Hotel.Views.RoomDetails))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("SWP_Xamarin_Hotel.Views.RoomDetailsView.xaml", "Views/RoomDetailsView.xaml", typeof(global::SWP_Xamarin_Hotel.Views.RoomDetailsView))]
 
 namespace SWP_Xamarin_Hotel.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\RoomDetails.xaml")]
-    public partial class RoomDetails : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\RoomDetailsView.xaml")]
+    public partial class RoomDetailsView : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(RoomDetails));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(RoomDetailsView));
         }
     }
 }

@@ -23,6 +23,26 @@ namespace SWP_Xamarin_Hotel.Services
             throw new NotImplementedException();
         }
 
+        public async Task<Room> GetSingleRoom(int roomId)
+        {
+            try
+            {
+                HttpResponseMessage response = await _client.GetAsync(Constants.RoomsUrl + "/" + roomId);
+                if (response.IsSuccessStatusCode)
+                {
+                    string content = await response.Content.ReadAsStringAsync();
+                    Debug.WriteLine(content);
+                    return JsonConvert.DeserializeObject<Room>(content);
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+            }
+
+            return null;
+        }
+
         public async Task<ObservableCollection<Room>> GetAllRooms()
         {
             try

@@ -31,4 +31,4 @@ C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel\
 C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel\obj\Debug\netstandard2.0\refint\SWP_Xamarin_Hotel.dll
 C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel\obj\Debug\netstandard2.0\Views\MainMenuView.xaml.g.cs
 C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel\obj\Debug\netstandard2.0\Views\RegisterView.xaml.g.cs
-C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel\obj\Debug\netstandard2.0\Views\RoomDetails.xaml.g.cs
+C:\Users\schul\Documents\GitHub\SWP_Xamarin\SWP_Xamarin_Hotel\SWP_Xamarin_Hotel\obj\Debug\netstandard2.0\Views\RoomDetailsView.xaml.g.cs

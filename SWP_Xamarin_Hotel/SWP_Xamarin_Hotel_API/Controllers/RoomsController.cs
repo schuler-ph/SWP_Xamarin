@@ -16,6 +16,13 @@ namespace SWP_Xamarin_Hotel_API.Controllers
             return this._context.Rooms.ToList();
         }
 
+        [Route("{roomId}")]
+        [HttpGet]
+        public Room GetSingleRoom(int roomId)
+        {
+            return this._context.Rooms.Where(r => r.RoomId == roomId).Select(r => r).ToList()[0];
+        }
+
         [Route("freeRooms/{start}/{end}")]
         [HttpGet]
         public List<Room> GetFreeRooms(string start, string end)

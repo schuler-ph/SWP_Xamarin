@@ -26,12 +26,18 @@
     <EmbeddedResource Update="Views\RegisterView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\RoomDetails.xaml">
+    <EmbeddedResource Update="Views\RoomDetailsView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Models\Common\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\RoomDetailsView.xaml.cs">
+      <DependentUpon>RoomDetailsView.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>

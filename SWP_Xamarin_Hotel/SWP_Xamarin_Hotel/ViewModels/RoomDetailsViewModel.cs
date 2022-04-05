@@ -1,5 +1,8 @@
 ﻿using SWP_Xamarin_Hotel.Models;
-using SWP_Xamarin_Hotel.Models.Common;
+using System.Windows.Input;
+using Xamarin.Forms;
+
+using BindingBase = SWP_Xamarin_Hotel.Models.Common.BindingBase;
 
 namespace SWP_Xamarin_Hotel.ViewModels
 {
@@ -9,13 +12,17 @@ namespace SWP_Xamarin_Hotel.ViewModels
         public Room Room
         {
             get { return _room; }
-            set
-            {
-                _room = value;
-                this.RaisePropertyChanged(nameof(Room));
-            }
+            set { _room = value; this.RaisePropertyChanged(nameof(Room)); }
         }
 
+        public RoomDetailsViewModel()
+        {
 
+        }
+
+        public ICommand CmdNavigateBack => new Command(async () =>
+        {
+            await Application.Current.MainPage.Navigation.PopModalAsync();
+        });
     }
 }

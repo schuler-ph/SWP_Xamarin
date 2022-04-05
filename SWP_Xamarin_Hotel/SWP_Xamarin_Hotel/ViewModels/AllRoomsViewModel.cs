@@ -39,8 +39,10 @@ namespace SWP_Xamarin_Hotel.ViewModels
         public ICommand CmdLoadFreeRooms => new Command(LoadFreeRooms);
         private async void LoadFreeRooms() { Rooms = await _api.GetAllFreeRooms(StartDate, EndDate); }
 
-
         public ICommand CmdNavigateBack => new Command(NavigateBack);
         private async void NavigateBack() { await Application.Current.MainPage.Navigation.PopModalAsync(); }
+
+
+
     }
 }
