@@ -9,6 +9,7 @@ namespace SWP_Xamarin_Hotel.Models
         public bool IsPaid { get; set; }
 
         public DateTime DueDate { get; set; }
+        public string DueDateString => DueDate.ToShortDateString();
         public PaymentMethod PaymentMethod { get; set; }
     }
 }

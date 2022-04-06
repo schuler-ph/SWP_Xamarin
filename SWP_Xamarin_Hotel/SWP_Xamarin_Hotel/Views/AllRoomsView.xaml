@@ -24,14 +24,14 @@
                             <ColumnDefinition Width="1*" />
                             <ColumnDefinition Width="1*" />
                         </Grid.ColumnDefinitions>
-                        <Label Text="RoomId" Grid.Column="1" FontAttributes="Bold"/>
-                        <Label Text="RoomNumber" Grid.Column="2" FontAttributes="Bold" />
-                        <Label Text="NumberOfBeds" Grid.Column="3" FontAttributes="Bold" />
-                        <Label Text="HasKitchen" Grid.Column="4" FontAttributes="Bold" />
-                        <Label Text="HasBalcony" Grid.Column="5" FontAttributes="Bold" />
-                        <Label Text="HasTerrace" Grid.Column="6" FontAttributes="Bold" />
-                        <Label Text="PricePerNight" Grid.Column="7" FontAttributes="Bold" />
-                        <Label Text="Details" Grid.Column="8" FontAttributes="Bold" />
+                        <Label Text="RoomId" Grid.Column="0" FontAttributes="Bold"/>
+                        <Label Text="RoomNumber" Grid.Column="1" FontAttributes="Bold" />
+                        <Label Text="NumberOfBeds" Grid.Column="2" FontAttributes="Bold" />
+                        <Label Text="HasKitchen" Grid.Column="3" FontAttributes="Bold" />
+                        <Label Text="HasBalcony" Grid.Column="4" FontAttributes="Bold" />
+                        <Label Text="HasTerrace" Grid.Column="5" FontAttributes="Bold" />
+                        <Label Text="PricePerNight" Grid.Column="6" FontAttributes="Bold" />
+                        <Label Text="Details" Grid.Column="7" FontAttributes="Bold" HorizontalOptions="Center"/>
                     </Grid>
                 </CollectionView.Header>
                 <CollectionView.ItemTemplate>
@@ -49,14 +49,14 @@
                                 <ColumnDefinition Width="1*" />
                                 <ColumnDefinition Width="1*" />
                             </Grid.ColumnDefinitions>
-                            <Label Text="{Binding RoomId}" Grid.Column="1" />
-                            <Label Text="{Binding RoomNumber}" Grid.Column="2" />
-                            <Label Text="{Binding NumberOfBeds}" Grid.Column="3" />
-                            <Label Text="{Binding HasKitchen}" Grid.Column="4" />
-                            <Label Text="{Binding HasBalcony}" Grid.Column="5" />
-                            <Label Text="{Binding HasTerrace}" Grid.Column="6" />
-                            <Label Text="{Binding PricePerNight}" Grid.Column="7" />
-                            <Button Text="Details" Grid.Column="8"
+                            <Label Text="{Binding RoomId}" Grid.Column="0" />
+                            <Label Text="{Binding RoomNumber}" Grid.Column="1" />
+                            <Label Text="{Binding NumberOfBeds}" Grid.Column="2" />
+                            <Label Text="{Binding HasKitchen}" Grid.Column="3" />
+                            <Label Text="{Binding HasBalcony}" Grid.Column="4" />
+                            <Label Text="{Binding HasTerrace}" Grid.Column="5" />
+                            <Label Text="{Binding PricePerNight}" Grid.Column="6" />
+                            <Button Text="Details" Grid.Column="7"
                                     Command="{Binding Source={x:Reference Page}, Path=BindingContext.CmdNavigateDetails}"
                                     CommandParameter="{Binding RoomId}" />
                         </Grid>

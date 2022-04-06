@@ -5,12 +5,14 @@
     <ContentPage.Content>
         <StackLayout>
             <Button Text="Räume"
+                FontSize="Large"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
                 Command="{Binding CmdNavigateRooms}"
             />
 
             <Button Text="Gäste"
+                FontSize="Large"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
                 Command="{Binding CmdNavigateRegister}"
