@@ -102,16 +102,14 @@ namespace SWP_Xamarin_Hotel.Services
                 Debug.WriteLine(json);
                 StringContent content = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
                 string url = Constants.RoomsUrl + "/" + newRoom.RoomId;
-                HttpResponseMessage response = await _client.PutAsync(url, content);
+                Debug.WriteLine(url);
+                await _client.PutAsync(url, content);
             }
             catch (Exception ex)
             {
                 Debug.WriteLine(ex.Message);
             }
-
-            return;
         }
-
 
         public Task<Room> GetRoom(int roomId)
         {

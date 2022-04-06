@@ -1,5 +1,6 @@
 ﻿using SWP_Xamarin_Hotel.Models;
 using SWP_Xamarin_Hotel.Services;
+using System.Collections.ObjectModel;
 using System.Windows.Input;
 using Xamarin.Forms;
 
@@ -24,6 +25,9 @@ namespace SWP_Xamarin_Hotel.ViewModels
             get { return _room; }
             set { _room = value; this.RaisePropertyChanged(nameof(Room)); }
         }
+
+
+        public ObservableCollection<Bills_Rooms> BillsRooms { get; set; }
 
         public RoomDetailsViewModel()
         {

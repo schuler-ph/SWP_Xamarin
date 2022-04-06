@@ -30,7 +30,12 @@ namespace SWP_Xamarin_Hotel_API.Controllers
             var entity = this._context.Rooms.FirstOrDefault(i => i.RoomId == roomId);
             if (entity != null)
             {
-                entity = newRoom;
+                entity.RoomNumber = newRoom.RoomNumber;
+                entity.NumberOfBeds = newRoom.NumberOfBeds;
+                entity.HasKitchen = newRoom.HasKitchen;
+                entity.HasTerrace = newRoom.HasTerrace;
+                entity.HasBalcony = newRoom.HasBalcony;
+                entity.PricePerNight = newRoom.PricePerNight;
                 this._context.SaveChanges();
             }
         }

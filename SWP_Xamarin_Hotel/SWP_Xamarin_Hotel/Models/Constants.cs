@@ -7,5 +7,7 @@
 
         public static string GuestsUrl = "http://localhost:5081/api/guests";
         public static string RegisterUrl = "http://localhost:5081/api/guests/register";
+
+        public static string BillsUrl = "http://localhost:5081/api/bills";
     }
 }

@@ -56,7 +56,9 @@
                             <Label Text="{Binding HasBalcony}" Grid.Column="5" />
                             <Label Text="{Binding HasTerrace}" Grid.Column="6" />
                             <Label Text="{Binding PricePerNight}" Grid.Column="7" />
-                            <Button Text="Details" Grid.Column="8" Command="{Binding Source={x:Reference Page} Path=BindingContext.CmdNavigateDetails}" CommandParameter="{Binding RoomId}" />
+                            <Button Text="Details" Grid.Column="8"
+                                    Command="{Binding Source={x:Reference Page}, Path=BindingContext.CmdNavigateDetails}"
+                                    CommandParameter="{Binding RoomId}" />
                         </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

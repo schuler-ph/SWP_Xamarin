@@ -4,6 +4,8 @@
              x:Class="SWP_Xamarin_Hotel.Views.RoomDetailsView">
     <ContentPage.Content>
         <StackLayout>
+            <Label Text="Details" FontSize="Large" />
+
             <Grid Margin="50">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
@@ -20,7 +22,7 @@
                 <Entry Text="{Binding Room.RoomNumber}" Grid.Row="1" Grid.Column="1"/>
 
                 <Label Text="Anzahl Betten" HorizontalOptions="Center" Grid.Row="2"/>
-                <Entry Text="{Binding Room.NumberOfBeds}" Grid.Row="2" Grid.Column="1"/>
+                <Entry Text="{Binding Room.NumberOfBeds}" Grid.Row="2" Grid.Column="1" Keyboard="Numeric"/>
 
                 <Label Text="Küche" HorizontalOptions="Center" Grid.Row="3"/>
                 <CheckBox IsChecked="{Binding Room.HasKitchen}" Grid.Row="3" Grid.Column="1"/>
@@ -29,13 +31,71 @@
                 <CheckBox IsChecked="{Binding Room.HasBalcony}" Grid.Row="4" Grid.Column="1"/>
 
                 <Label Text="Terrasse" HorizontalOptions="Center" Grid.Row="5"/>
-                <Entry Text="{Binding Room.HasTerrace}" Grid.Row="5" Grid.Column="1"/>
+                <CheckBox IsChecked="{Binding Room.HasTerrace}" Grid.Row="5" Grid.Column="1"/>
 
                 <Label Text="Nachtpreis" HorizontalOptions="Center" Grid.Row="6"/>
                 <Entry Text="{Binding Room.PricePerNight}" Grid.Row="6" Grid.Column="1"/>
             </Grid>
 
             <Button Text="Absenden" Command="{Binding CmdSubmit}" />
+
+            <Label Text="Reservierungen" FontSize="Large" />
+
+            <CollectionView ItemsSource="{Binding BillsRooms}" HeightRequest="300">
+                <CollectionView.Header>
+                    <Grid Margin="50">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Label Text="Bill Id" />
+                        <Label Text="Start" Grid.Column="1"/>
+                        <Label Text="Ende" Grid.Column="2"/>
+                        <Label Text="Rabatt" Grid.Column="3"/>
+                        <Label Text="Bezahlt" Grid.Column="4"/>
+                        <Label Text="Zahlung fällig bis" Grid.Column="5"/>
+                        <Label Text="Vorname" Grid.Column="6"/>
+                        <Label Text="Nachname" Grid.Column="7"/>
+                    </Grid>
+                </CollectionView.Header>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="50">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Label Text="{Binding Bills_RoomsId}" />
+                            <Label Text="{Binding BeginReservation}" Grid.Column="1"/>
+                            <Label Text="{Binding EndReservation}" Grid.Column="2"/>
+                            <Label Text="{Binding Discount}" Grid.Column="3"/>
+                            <Label Text="{Binding Bill.IsPaid}" Grid.Column="4"/>
+                            <Label Text="{Binding Bill.DueDate}" Grid.Column="5"/>
+                            <Label Text="{Binding Bill.Guest.Firstname}" Grid.Column="6"/>
+                            <Label Text="{Binding Bill.Guest.Lastname}" Grid.Column="7"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
             <Button Text="Zurück" Command="{Binding CmdNavigateBack}" />
         </StackLayout>
     </ContentPage.Content>

@@ -3,6 +3,7 @@ using SWP_Xamarin_Hotel.Services;
 using SWP_Xamarin_Hotel.Views;
 using System;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Windows.Input;
 using Xamarin.Forms;
 using BindingBase = SWP_Xamarin_Hotel.Models.Common.BindingBase;
@@ -26,6 +27,7 @@ namespace SWP_Xamarin_Hotel.ViewModels
         public DateTime EndDate { get; set; }
 
         private readonly ApiRoomService _api = new ApiRoomService();
+        private readonly ApiBillService _bApi = new ApiBillService();
 
         public AllRoomsViewModel()
         {
@@ -43,11 +45,14 @@ namespace SWP_Xamarin_Hotel.ViewModels
         public ICommand CmdNavigateBack => new Command(NavigateBack);
         private async void NavigateBack() { await Application.Current.MainPage.Navigation.PopModalAsync(); }
 
-        public ICommand CmdNavigateDetails => new Command(async (int id) =>
+        public ICommand CmdNavigateDetails => new Command<int>(async (int roomId) =>
         {
+            Debug.WriteLine("CmdNavigateDetails");
             ApiRoomService _api = new ApiRoomService();
             Room room = await _api.GetSingleRoom(roomId);
-            RoomDetailsView view = new RoomDetailsView(room);
+            ObservableCollection<Bills_Rooms> billsRooms = await _bApi.GetAllBillsByRoomId(roomId);
+
+            RoomDetailsView view = new RoomDetailsView(room, billsRooms);
             await Application.Current.MainPage.Navigation.PushModalAsync(view);
         });
 
