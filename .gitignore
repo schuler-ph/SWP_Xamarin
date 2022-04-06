@@ -4,7 +4,19 @@ SWP_Xamarin_Hotel/SWP_Xamarin_Hotel.iOS/obj/
 SWP_Xamarin_Hotel/SWP_Xamarin_Hotel.UWP/obj/
 SWP_Xamarin_Hotel/SWP_Xamarin_Hotel_API/obj/
 
+SWP_Xamarin_Hotel/SWP_Xamarin_Hotel/bin/
+SWP_Xamarin_Hotel/SWP_Xamarin_Hotel.Android/bin/
+SWP_Xamarin_Hotel/SWP_Xamarin_Hotel.iOS/bin/
+SWP_Xamarin_Hotel/SWP_Xamarin_Hotel.UWP/bin/
+SWP_Xamarin_Hotel/SWP_Xamarin_Hotel_API/bin/
+
+
 Xamarin_App1/Xamarin_App1/Xamarin_App1/obj/
 Xamarin_App1/Xamarin_App1/Xamarin_App1.Android/obj/
 Xamarin_App1/Xamarin_App1/Xamarin_App1.iOS/obj/
 Xamarin_App1/Xamarin_App1/Xamarin_App1.UWP/obj/
+
+Xamarin_App1/Xamarin_App1/Xamarin_App1/bin/
+Xamarin_App1/Xamarin_App1/Xamarin_App1.Android/bin/
+Xamarin_App1/Xamarin_App1/Xamarin_App1.iOS/bin/
+Xamarin_App1/Xamarin_App1/Xamarin_App1.UWP/bin/
