@@ -23,6 +23,26 @@ namespace SWP_Xamarin_Hotel.Services
             throw new NotImplementedException();
         }
 
+        public async Task<Room> GetSingleRoom(int roomId)
+        {
+            try
+            {
+                HttpResponseMessage response = await _client.GetAsync(Constants.RoomsUrl + "/" + roomId);
+                if (response.IsSuccessStatusCode)
+                {
+                    string content = await response.Content.ReadAsStringAsync();
+                    Debug.WriteLine(content);
+                    return JsonConvert.DeserializeObject<Room>(content);
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+            }
+
+            return null;
+        }
+
         public async Task<ObservableCollection<Room>> GetAllRooms()
         {
             try
@@ -72,6 +92,24 @@ namespace SWP_Xamarin_Hotel.Services
             }
 
             return null;
+        }
+
+        public async Task UpdateRoom(Room newRoom)
+        {
+            try
+            {
+                string json = JsonConvert.SerializeObject(newRoom);
+                Debug.WriteLine(json);
+                StringContent content = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
+                string url = Constants.RoomsUrl + "/" + newRoom.RoomId;
+                HttpResponseMessage response = await _client.PutAsync(url, content);
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+            }
+
+            return;
         }
 
 

@@ -1,5 +1,6 @@
 ﻿using SWP_Xamarin_Hotel.Models;
 using SWP_Xamarin_Hotel.Services;
+using SWP_Xamarin_Hotel.Views;
 using System;
 using System.Collections.ObjectModel;
 using System.Windows.Input;
@@ -39,8 +40,16 @@ namespace SWP_Xamarin_Hotel.ViewModels
         public ICommand CmdLoadFreeRooms => new Command(LoadFreeRooms);
         private async void LoadFreeRooms() { Rooms = await _api.GetAllFreeRooms(StartDate, EndDate); }
 
-
         public ICommand CmdNavigateBack => new Command(NavigateBack);
         private async void NavigateBack() { await Application.Current.MainPage.Navigation.PopModalAsync(); }
+
+        public ICommand CmdNavigateDetails => new Command(async (int id) =>
+        {
+            ApiRoomService _api = new ApiRoomService();
+            Room room = await _api.GetSingleRoom(roomId);
+            RoomDetailsView view = new RoomDetailsView(room);
+            await Application.Current.MainPage.Navigation.PushModalAsync(view);
+        });
+
     }
 }
