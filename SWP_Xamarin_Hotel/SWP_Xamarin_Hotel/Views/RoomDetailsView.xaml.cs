@@ -15,6 +15,7 @@ namespace SWP_Xamarin_Hotel.Views
         {
             InitializeComponent();
             _vm.Room = room;
+            _vm.PrevRoom = room;
             this.BindingContext = _vm;
         }
     }

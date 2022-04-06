@@ -4,14 +4,38 @@
              x:Class="SWP_Xamarin_Hotel.Views.RoomDetailsView">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="{Binding Room.RoomId}" />
-            <Label Text="{Binding Room.RoomNumber}" />
-            <Label Text="{Binding Room.NumberOfBeds}" />
-            <Label Text="{Binding Room.HasKitchen}" />
-            <Label Text="{Binding Room.HasBalcony}" />
-            <Label Text="{Binding Room.HasTerrace}" />
-            <Label Text="{Binding Room.PricePerNight}" />
+            <Grid Margin="50">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
 
+                <Label Text="Zimmer Id" HorizontalOptions="Center"/>
+                <Label Text="{Binding Room.RoomId}" Grid.Column="1"/>
+
+                <Label Text="Zimmernummer" HorizontalOptions="Center" Grid.Row="1"/>
+                <Entry Text="{Binding Room.RoomNumber}" Grid.Row="1" Grid.Column="1"/>
+
+                <Label Text="Anzahl Betten" HorizontalOptions="Center" Grid.Row="2"/>
+                <Entry Text="{Binding Room.NumberOfBeds}" Grid.Row="2" Grid.Column="1"/>
+
+                <Label Text="Küche" HorizontalOptions="Center" Grid.Row="3"/>
+                <CheckBox IsChecked="{Binding Room.HasKitchen}" Grid.Row="3" Grid.Column="1"/>
+
+                <Label Text="Balkon" HorizontalOptions="Center" Grid.Row="4"/>
+                <CheckBox IsChecked="{Binding Room.HasBalcony}" Grid.Row="4" Grid.Column="1"/>
+
+                <Label Text="Terrasse" HorizontalOptions="Center" Grid.Row="5"/>
+                <Entry Text="{Binding Room.HasTerrace}" Grid.Row="5" Grid.Column="1"/>
+
+                <Label Text="Nachtpreis" HorizontalOptions="Center" Grid.Row="6"/>
+                <Entry Text="{Binding Room.PricePerNight}" Grid.Row="6" Grid.Column="1"/>
+            </Grid>
+
+            <Button Text="Absenden" Command="{Binding CmdSubmit}" />
             <Button Text="Zurück" Command="{Binding CmdNavigateBack}" />
         </StackLayout>
     </ContentPage.Content>
