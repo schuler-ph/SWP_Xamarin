@@ -17,7 +17,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Views\AllGuestsView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Views\AllRoomsView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\GuestsAddressesView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\MainMenuView.xaml">
@@ -36,6 +42,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Views\GuestsAddressesView.xaml.cs">
+      <DependentUpon>GuestsAddressesView.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\RoomDetailsView.xaml.cs">
       <DependentUpon>RoomDetailsView.xaml</DependentUpon>
     </Compile>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SWP_Xamarin_Hotel.Views.GuestsAddressesView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Alle Addressen" />
+            
+            <CollectionView ItemsSource="{Binding Addresses}">
+                <CollectionView.Header>
+                    <Grid Padding="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="20" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                        </Grid.ColumnDefinitions>
+                        <Label Text="Adresse Id" Grid.Column="0" FontAttributes="Bold"/>
+                        <Label Text="Straße" Grid.Column="1" FontAttributes="Bold" />
+                        <Label Text="Hausnummer" Grid.Column="2" FontAttributes="Bold" />
+                        <Label Text="Postleitzahl" Grid.Column="3" FontAttributes="Bold" />
+                        <Label Text="Stadt" Grid.Column="4" FontAttributes="Bold" />
+                    </Grid>
+                </CollectionView.Header>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="1*" />
+                            </Grid.ColumnDefinitions>
+                            <Label Text="{Binding AddressId}" Grid.Column="0" />
+                            <Label Text="{Binding StreetName}" Grid.Column="1" />
+                            <Label Text="{Binding HouseNumber}" Grid.Column="2" />
+                            <Label Text="{Binding ZipCode}" Grid.Column="3" />
+                            <Label Text="{Binding City}" Grid.Column="4" />
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <Button Text="Alle Addressen laden" Command="{Binding CmdLoadAddresses}"/>
+            <Button Text="Zurück" Command="{Binding CmdNavigateBack}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
