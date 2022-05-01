@@ -15,7 +15,7 @@
                 FontSize="Large"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
-                Command="{Binding CmdNavigateRegister}"
+                Command="{Binding CmdNavigateGuests}"
             />
         </StackLayout>
     </ContentPage.Content>

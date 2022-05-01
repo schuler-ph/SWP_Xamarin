@@ -9,6 +9,8 @@ namespace SWP_Xamarin_Hotel.Models
         public string Lastname { get; set; }
         public DateTime Birthday { get; set; }
 
+        public string BirthdayString => Birthday.ToShortDateString();
+
         public Guest(string passport, string fn, string ln, DateTime bday)
         {
             this.PassportNumber = passport;

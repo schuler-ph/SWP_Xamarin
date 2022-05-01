@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SWP_Xamarin_Hotel.Views.AllGuestsView"
+             x:Name="Page">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Alle Gäste" />
+
+            <CollectionView ItemsSource="{Binding Guests}">
+                <CollectionView.Header>
+                    <Grid Padding="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="20" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                        </Grid.ColumnDefinitions>
+                        <Label Text="Passnummer" Grid.Column="0" FontAttributes="Bold"/>
+                        <Label Text="Vorname" Grid.Column="1" FontAttributes="Bold" />
+                        <Label Text="Nachname" Grid.Column="2" FontAttributes="Bold" />
+                        <Label Text="Geburtstag" Grid.Column="3" FontAttributes="Bold" />
+                        <Label Text="Adressen" Grid.Column="4" FontAttributes="Bold" />
+                    </Grid>
+                </CollectionView.Header>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="1*" />
+                            </Grid.ColumnDefinitions>
+                            <Label Text="{Binding PassportNumber}" Grid.Column="0" />
+                            <Label Text="{Binding Firstname}" Grid.Column="1" />
+                            <Label Text="{Binding Lastname}" Grid.Column="2" />
+                            <Label Text="{Binding BirthdayString}" Grid.Column="3" />
+                            <Button Text="Details" Grid.Column="4"
+                                    Command="{Binding Source={x:Reference Page}, Path=BindingContext.CmdNavigateAddresses}"
+                                    CommandParameter="{Binding PassportNumber}" />
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <Button Text="Alle Gäste laden" Command="{Binding CmdLoadGuests}"/>
+            <Button Text="Neuen Gast erstellen" Command="{Binding CmdNavigateRegister}"/>
+            <Button Text="Zurück" Command="{Binding CmdNavigateBack}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

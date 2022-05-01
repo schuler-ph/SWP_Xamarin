@@ -15,11 +15,11 @@ namespace SWP_Xamarin_Hotel.ViewModels
             await Application.Current.MainPage.Navigation.PushModalAsync(view);
         }
 
-        public ICommand CmdNavigateRegister => new Command(NavigateRegister);
+        public ICommand CmdNavigateGuests => new Command(NavigateGuests);
 
-        private async void NavigateRegister()
+        private async void NavigateGuests()
         {
-            RegisterView view = new RegisterView();
+            AllGuestsView view = new AllGuestsView();
             await Application.Current.MainPage.Navigation.PushModalAsync(view);
         }
     }
